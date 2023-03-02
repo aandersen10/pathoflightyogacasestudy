@@ -1,0 +1,54 @@
+<html>
+<link href="yoga.css" rel="stylesheet">
+<link rel="stylesheet" href="yoga.css">
+<meta name="description" content="Path of Light Yoga Studio is a yoga website with class info, contact info, and general info.">
+<header class="home">
+    <h1><a href="contact.html">Path of Light Yoga Studio</a></h1>
+    <nav>
+        <ul>
+            <li><a href="index.html"><b>Home</b></a></li>
+            <li><a href="classes.html"><b>Classes</b></a></li>
+            <li><a href="schedule.html"><b>Schedule</b></a></li>
+            <li><a href="contact.html"><b>Contact</b></a></li>
+        </ul>
+    </nav>
+</header>
+</div>
+<body>
+<div id="wrapper">
+    <main>
+        <h2>Contact Path of Light Yoga Studio</h2>
+        <p>Required fields are marked with an asterisk *</p>
+        <form method="post" action="https://webdevbasics.net/scripts/yoga.php">
+            <div>
+                <label for="myName">* Name:</label>
+                <input type="text" id="myName" name="myName" required>
+            </div><br>
+            <div>
+                <label for="myEmail">* E-mail:</label>
+                <input type="email" id="myEmail" name="myEmail" required>
+            </div><br>
+            <div>
+                <label for="howDidYouHear">How did you hear about us?</label>
+                <input type="text" id="howDidYouHear" name="howDidYouHear" list="referralOptions">
+                <datalist id="referralOptions">
+                    <option value="Google">
+                    <option value="Bing">
+                    <option value="Facebook">
+                    <option value="Friend">
+                    <option value="Radio Ad">
+                </datalist>
+            </div><br>
+            <div>
+                <label for="myComments">* Comments:</label>
+                <textarea id="myComments" name="myComments" rows="2" cols="20" required></textarea>
+            </div><br>
+            <input type="submit" value="Send Now">
+        </form>
+    </main>
+    <footer>Copyright &copy; Path of Light Yoga<br>
+        <a href="ariahnaandersen@gmail.com">ariahnaandersen@gmail.com</a>.
+    </footer>
+</div>
+</body>
+</html>
